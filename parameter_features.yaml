@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  parameters: { password: 123, Username: yuvan }
+  classes:
+    - com.TestNg1.Parameter1
+
